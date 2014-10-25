@@ -7,10 +7,8 @@
  */
 class Welcome extends MpController {
 
-    public function doIndex($name = '')
+    public function doIndex()
     {
-        $http = new WoniuHttp();
-        $data = $http->get('http://www.aliexpress.com', null, null, 1);
-        $this->echo($data);
+        $this->view('welcome');
     }
 }
