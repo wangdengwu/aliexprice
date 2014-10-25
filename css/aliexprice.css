@@ -1,0 +1,20 @@
+.banner{
+    background: url(../img/buyer-proctection-banner.jpg) top center no-repeat;
+}
+.banner h1{
+    margin-left: 400px;
+    color: #407aaa;
+    font: bold 50px Arial;
+}
+.banner p{
+    font: normal 18px Arial;
+    color: #999;
+    margin-left: 330px;
+}
+.banner a{
+    margin-left: 400px;
+}
+.marketing .col-lg-4 {
+    margin-bottom: 20px;
+    text-align: center;
+}
