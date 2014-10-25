@@ -18,3 +18,14 @@
     margin-bottom: 20px;
     text-align: center;
 }
+#homepage-link {
+    display: block;
+    width: 990px;
+    height: 400px;
+    padding-bottom: 10px;
+    text-indent: -9999px;
+    overflow: hidden;
+    background: url(../img/404_notice.png) no-repeat;
+    MARGIN-RIGHT: auto;
+    MARGIN-LEFT: auto;
+}

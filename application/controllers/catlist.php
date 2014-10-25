@@ -7,8 +7,9 @@
  */
 class Catlist extends MpController {
 
-    public function doIndex($catId)
+    public function doIndex($catId='')
     {
-        $this->view('catlist');
+        $data=array('catId'=>$catId);
+        $this->view('catlist',$data);
     }
 }

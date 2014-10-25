@@ -2,4 +2,5 @@ RewriteEngine On
 RewriteCond $1 !^(index\.php|static|robots\.txt)
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.*)$ index.php/$1 [L]
+RewriteRule ^(.*)$ /index.php/$1 [QSA,L,P]
+DirectoryIndex welcome.index

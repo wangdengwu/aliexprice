@@ -94,7 +94,7 @@
 
             <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar" role="navigation">
                 <div class="list-group">
-                    <a href="/catlist.php/3" class="list-group-item">Apparel & Accessories</a>
+                    <a href="/catlist.index/3" class="list-group-item">Apparel & Accessories</a>
                     <a href="#" class="list-group-item">Automobiles & Motorcycles</a>
                     <a href="#" class="list-group-item">Baby Products</a>
                     <a href="#" class="list-group-item">Beauty & Health</a>
