@@ -95,33 +95,34 @@
             <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar" role="navigation">
                 <div class="list-group">
                     <a href="/catlist.index/3" class="list-group-item">Apparel & Accessories</a>
-                    <a href="#" class="list-group-item">Automobiles & Motorcycles</a>
-                    <a href="#" class="list-group-item">Baby Products</a>
-                    <a href="#" class="list-group-item">Beauty & Health</a>
-                    <a href="#" class="list-group-item">Computer & Networking</a>
-                    <a href="#" class="list-group-item">Construction & Real Estate</a>
-                    <a href="#" class="list-group-item">Consumer Electronics</a>
-                    <a href="#" class="list-group-item">Customized Products</a>
-                    <a href="#" class="list-group-item">Electrical Equipment & Supplies</a>
-                    <a href="#" class="list-group-item">Electronic Components & Supplies</a>
-                    <a href="#" class="list-group-item">Food</a>
-                    <a href="#" class="list-group-item">Furniture</a>
-                    <a href="#" class="list-group-item">Hair & Accessories</a>
-                    <a href="#" class="list-group-item">Hardware</a>
-                    <a href="#" class="list-group-item">Home & Garden</a>
-                    <a href="#" class="list-group-item">Home Appliances</a>
-                    <a href="#" class="list-group-item">Industry & Business</a>
-                    <a href="#" class="list-group-item">Jewelry & Watch</a>
-                    <a href="#" class="list-group-item">Lights & Lighting</a>
-                    <a href="#" class="list-group-item">Luggage & Bags</a>
-                    <a href="#" class="list-group-item">Office & School Supplies</a>
-                    <a href="#" class="list-group-item">Phones & Telecommunications</a>
-                    <a href="#" class="list-group-item">Security & Protection</a>
-                    <a href="#" class="list-group-item">Shoes</a>
-                    <a href="#" class="list-group-item">Special Category</a>
-                    <a href="#" class="list-group-item">Tools</a>
-                    <a href="#" class="list-group-item">Toys & Hobbies</a>
-                    <a href="#" class="list-group-item">Watches</a>
+                    <a href="/catlist.index/34" class="list-group-item">Automobiles & Motorcycles</a>
+                    <a href="/catlist.index/1501" class="list-group-item">Baby Products</a>
+                    <a href="/catlist.index/66" class="list-group-item">Beauty & Health</a>
+                    <a href="/catlist.index/7" class="list-group-item">Computer & Networking</a>
+                    <a href="/catlist.index/13" class="list-group-item">Construction & Real Estate</a>
+                    <a href="/catlist.index/44" class="list-group-item">Consumer Electronics</a>
+                    <a href="/catlist.index/100008578" class="list-group-item">Customized Products</a>
+                    <a href="/catlist.index/5" class="list-group-item">Electrical Equipment & Supplies</a>
+                    <a href="/catlist.index/502" class="list-group-item">Electronic Components & Supplies</a>
+                    <a href="/catlist.index/2" class="list-group-item">Food</a>
+                    <a href="/catlist.index/1503" class="list-group-item">Furniture</a>
+                    <a href="/catlist.index/200003655" class="list-group-item">Hair & Accessories</a>
+                    <a href="/catlist.index/42" class="list-group-item">Hardware</a>
+                    <a href="/catlist.index/15" class="list-group-item">Home & Garden</a>
+                    <a href="/catlist.index/6" class="list-group-item">Home Appliances</a>
+                    <a href="/catlist.index/200003590" class="list-group-item">Industry & Business</a>
+                    <a href="/catlist.index/36" class="list-group-item">Jewelry & Watch</a>
+                    <a href="/catlist.index/39" class="list-group-item">Lights & Lighting</a>
+                    <a href="/catlist.index/1524" class="list-group-item">Luggage & Bags</a>
+                    <a href="/catlist.index/21" class="list-group-item">Office & School Supplies</a>
+                    <a href="/catlist.index/509" class="list-group-item">Phones & Telecommunications</a>
+                    <a href="/catlist.index/30" class="list-group-item">Security & Protection</a>
+                    <a href="/catlist.index/322" class="list-group-item">Shoes</a>
+                    <a href="/catlist.index/200001075" class="list-group-item">Special Category</a>
+                    <a href="/catlist.index/18" class="list-group-item">Sports & Entertainment</a>
+                    <a href="/catlist.index/1420" class="list-group-item">Tools</a>
+                    <a href="/catlist.index/26" class="list-group-item">Toys & Hobbies</a>
+                    <a href="/catlist.index/1511" class="list-group-item">Watches</a>
                 </div>
             </div><!--/span-->
         </div><!--/row-->
