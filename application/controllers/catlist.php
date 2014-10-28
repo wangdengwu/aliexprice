@@ -7,12 +7,21 @@
  */
 class Catlist extends MpController {
 
-    public function doIndex($catId='3',$pageNo=1)
+    public function doIndex($catId='shoes',$pageNo=1)
     {
         $ref="http://www.aliexprice.com/";
         $api_url="http://gw.api.alibaba.com/openapi/param2/1/portals.open/api.listPromotionProduct/85087";
         $http = new WoniuHttp();
-        $data['categoryId'] = $catId;
+        $keywords = $this->input->post('keywords');
+        if(is_numeric($catId)) {
+            $data['categoryId'] = $catId;
+        }else{
+            $data['keywords'] = $catId;
+        }
+        if($keywords != null){
+            $data['keywords'] = $keywords;
+            $catId = $keywords;
+        }
         $data['trackingId'] = "aliexprice";
         $data['pageNo'] = $pageNo;
         $data['pageSize'] = 21;
@@ -27,6 +36,12 @@ class Catlist extends MpController {
         }
         $this->helper('config');
         $catName=$this->config('catList',$catId);
+        if($keywords != null){
+            $catName = $keywords;
+        }
+        if($catName == null){
+            $catName = $catId;
+        }
         $pre=$pageNo-5;
         $next=$pageNo+5;
         $yushu=$pageNo%5;

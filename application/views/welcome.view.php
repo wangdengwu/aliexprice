@@ -16,6 +16,14 @@
                     <li class="active"><a href="#">Home</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#contact">Contact</a></li>
+                    <form method="post" action="/catlist.index">
+                        <div class="input-group col-lg-6" style="position: absolute;top: 10px;right: 150px;">
+                            <input type="text" name="keywords" placeholder="I'm shopping for..." class="form-control"/>
+                            <span class="input-group-btn">
+                                <button class="btn btn-default" type="submit">Go!</button>
+                            </span>
+                        </div>
+                    </form>
                 </ul>
             </div><!-- /.nav-collapse -->
         </div><!-- /.container -->
@@ -36,9 +44,10 @@
                 </div>
                 <div class="row marketing">
                     <div class="col-6 col-sm-6 col-lg-4">
-                        <a href="http://s.click.aliexpress.com/e/f6YbMn2zZ?bz=300*250" target="_parent">
-                            <img width="200" height="200" src="http://gtms02.alicdn.com/tps/i2/TB1AJwNFFXXXXcfaXXXK0sWQpXX-300-250.jpg"/>
-                        </a>
+<!--                        <a href="http://s.click.aliexpress.com/e/f6YbMn2zZ?bz=300*250" target="_parent">-->
+<!--                            <img width="200" height="200" src="http://gtms02.alicdn.com/tps/i2/TB1AJwNFFXXXXcfaXXXK0sWQpXX-300-250.jpg"/>-->
+<!--                        </a>-->
+
                         <p><a class="btn btn-default" href="http://s.click.aliexpress.com/e/f6YbMn2zZ?bz=300*250" role="button">View details »</a></p>
                     </div><!--/span-->
                     <div class="col-6 col-sm-6 col-lg-4">
