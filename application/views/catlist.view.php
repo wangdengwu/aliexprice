@@ -1,4 +1,9 @@
 <?php include($this->view_path('common/header'));?>
+<title><?php echo $catName.' and more on Aliexprice.com' ?></title>
+<meta name="keywords" content="<?php echo $catName.',Online Shopping '.$catName ?>" />
+<meta name="description" content="<?php echo $catName.' and more from Aliexpress.com, Factory Price, Worldwide Shipping!' ?>" />
+</head>
+<body>
     <div class="container-fluid">
         <div class="container" style="margin-top: 10px">
             <ol class="breadcrumb">
@@ -20,11 +25,14 @@
                 $packageType=$item->packageType;
                 $salePrice=substr($item->salePrice,4);
                 $price=$salePrice*$item->lotNum;
+                $productId=$item->productId;
                 setlocale(LC_MONETARY, "en_US");
             ?>
                     <div class="col-sm-6 col-md-4">
                         <div class="thumbnail" style="height: 480px">
-                            <img style="height: 340px" src='<?php echo $imgUrl ?>'>
+<!--                            <a href="/product.index/--><?php //echo $productId ?><!--" target="_self">-->
+                                <img style="height: 340px" src='<?php echo $imgUrl ?>'>
+<!--                            </a>-->
                             <div class="caption">
                                 <p><?php echo $item->subject ?></p>
                                 <p>
