@@ -100,22 +100,22 @@
                 <div class="row" id="promotions">
 
                     <div class="col-12 col-sm-12 col-lg-12">
-                        <a href="http://s.click.aliexpress.com/e/eiqjAuF2B?bz=725*90" target="_parent"><img width="725" height="90" src="http://g01.a.alicdn.com/kf/HTB1O0C2HVXXXXcjXpXXq6xXFXXXi/728x90.jpg"/></a>
+                        <a rel="nofollow" href="http://s.click.aliexpress.com/e/eiqjAuF2B?bz=725*90" target="_parent"><img width="725" height="90" src="http://g01.a.alicdn.com/kf/HTB1O0C2HVXXXXcjXpXXq6xXFXXXi/728x90.jpg"/></a>
                     </div><!--/span-->
                     <div class="col-12 col-sm-12 col-lg-12">
-                        <a href="http://s.click.aliexpress.com/e/Mrz3zNbaY?bz=725*90" target="_parent"><img width="725" height="90" src="http://g01.a.alicdn.com/kf/HTB1tlL9HpXXXXXtaXXXq6xXFXXXh/728x90.jpg"/></a>
+                        <a rel="nofollow" href="http://s.click.aliexpress.com/e/Mrz3zNbaY?bz=725*90" target="_parent"><img width="725" height="90" src="http://g01.a.alicdn.com/kf/HTB1tlL9HpXXXXXtaXXXq6xXFXXXh/728x90.jpg"/></a>
                     </div><!--/span-->
                     <div class="col-12 col-sm-12 col-lg-12">
-                        <a href="http://s.click.aliexpress.com/e/Nv3fA6Mv7?bz=725*90" target="_parent"><img width="725" height="90" src="http://g01.a.alicdn.com/kf/HTB17jD_HpXXXXcmXVXXq6xXFXXXm/725x90.jpg"/></a>
+                        <a rel="nofollow" href="http://s.click.aliexpress.com/e/Nv3fA6Mv7?bz=725*90" target="_parent"><img width="725" height="90" src="http://g01.a.alicdn.com/kf/HTB17jD_HpXXXXcmXVXXq6xXFXXXm/725x90.jpg"/></a>
                     </div><!--/span-->
                     <div class="col-12 col-sm-12 col-lg-12">
-                        <a href="http://s.click.aliexpress.com/e/NFm6iQBEM?bz=725*90" target="_parent"><img width="725" height="90" src="http://g01.a.alicdn.com/kf/HTB1J3AaHpXXXXcXXFXXq6xXFXXXl/725x90.jpg"/></a>
+                        <a rel="nofollow" href="http://s.click.aliexpress.com/e/NFm6iQBEM?bz=725*90" target="_parent"><img width="725" height="90" src="http://g01.a.alicdn.com/kf/HTB1J3AaHpXXXXcXXFXXq6xXFXXXl/725x90.jpg"/></a>
                     </div><!--/span-->
                     <div class="col-12 col-sm-12 col-lg-12">
-                        <a href="http://s.click.aliexpress.com/e/aaEQnUjau?bz=725*90" target="_parent"><img width="725" height="90" src="http://g01.a.alicdn.com/kf/HTB1plAfHpXXXXcpXXXXq6xXFXXXs/725x90.jpg"/></a>
+                        <a rel="nofollow" href="http://s.click.aliexpress.com/e/aaEQnUjau?bz=725*90" target="_parent"><img width="725" height="90" src="http://g01.a.alicdn.com/kf/HTB1plAfHpXXXXcpXXXXq6xXFXXXs/725x90.jpg"/></a>
                     </div><!--/span-->
                     <div class="col-12 col-sm-12 col-lg-12">
-                        <a href="http://s.click.aliexpress.com/e/qBqzFQVZr?bz=725*90" target="_parent"><img width="725" height="90" src="http://g01.a.alicdn.com/kf/HTB10ZkbHpXXXXbBXFXXq6xXFXXX1/725x90.jpg"/></a>
+                        <a rel="nofollow" href="http://s.click.aliexpress.com/e/qBqzFQVZr?bz=725*90" target="_parent"><img width="725" height="90" src="http://g01.a.alicdn.com/kf/HTB10ZkbHpXXXXbBXFXXq6xXFXXX1/725x90.jpg"/></a>
                     </div><!--/span-->
                 </div>
             </div>
