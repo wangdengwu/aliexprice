@@ -1,18 +1,47 @@
-.banner{
-    background: url(../img/buyer-proctection-banner.jpg) top center no-repeat;
+#header{
+    height: 85px;
 }
-.banner h1{
-    margin-left: 400px;
-    color: #407aaa;
-    font: bold 50px Arial;
+
+#header .container-fluid{
+    width: 1200px;
 }
-.banner p{
-    font: normal 18px Arial;
+.navbar-brand{
+    width: 200px;
+}
+.logo-slogan{
+    margin-top: 3px;
+    display: block;
+    height: 20px;
+    overflow: hidden;
+    font-size: 11px;
     color: #999;
-    margin-left: 330px;
 }
-.banner a{
-    margin-left: 400px;
+.navbar-collapse{
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.form-control{
+    margin-left: 70px;
+    width: 530px !important;
+}
+#promotions{
+    margin-top: 10px;
+}
+#promotions p a{
+    display: inline-block;
+    width: 200px;
+    margin: 5px 25px 10px;
+}
+
+#container{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#myCarousel{
+    display: inline-block;
+    width: 750px;
+    height: 400px;
 }
 .marketing .col-lg-4 {
     margin-bottom: 20px;

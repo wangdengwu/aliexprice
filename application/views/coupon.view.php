@@ -4,7 +4,30 @@
 <meta name="description" content="<?php echo $description ?>" />
 </head>
 <body>
-
+<nav class="navbar navbar-default" id="header">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="/">
+                    <span><img alt="AliFastShopping" src="/img/logo-new-1x.png"></span>
+                    <span class="logo-slogan">Smarter Shopping, Better Living!</span>
+                </a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="/">Home</a></li>
+                    <li><a target="_blank" rel="nofollow" href="http://s.click.aliexpress.com/e/j6EuFYjAa">Buyer Protection</a></li>
+                    <li class="active"><a href="#">Coupon</a></li>
+                </ul>
+                <form method="post" action="/catlist.index" class="navbar-form navbar-left" role="search">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="I'm shopping for...">
+                    </div>
+                    <button type="submit" class="btn btn-default">GO!</button>
+                </form>
+            </div>
+        </div>
+</nav>
 <div class="container-fluid">
     <div class="container">
 	    <div class="top-banner">

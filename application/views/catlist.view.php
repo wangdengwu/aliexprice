@@ -4,19 +4,35 @@
 <meta name="description" content="<?php echo $catName.' and more from Aliexpress.com, Factory Price, Worldwide Shipping!' ?>" />
 </head>
 <body>
+    <nav class="navbar navbar-default" id="header">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="/">
+                    <span><img alt="AliFastShopping" src="/img/logo-new-1x.png"></span>
+                    <span class="logo-slogan">Smarter Shopping, Better Living!</span>
+                </a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="/">Home</a></li>
+                    <li><a target="_blank" rel="nofollow" href="http://s.click.aliexpress.com/e/j6EuFYjAa">Buyer Protection</a></li>
+                    <li><a target="_blank" href="/coupon.index">Coupon</a></li>
+                </ul>
+                <form method="post" action="/catlist.index" class="navbar-form navbar-left" role="search">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="I'm shopping for...">
+                    </div>
+                    <button type="submit" class="btn btn-default">GO!</button>
+                </form>
+            </div>
+        </div>
+    </nav>
     <div class="container-fluid">
         <div class="container" style="margin-top: 10px">
             <ol class="breadcrumb">
                 <li><a href="http://www.aliexprice.com">Home</a></li>
                 <li class="active"><?php echo $catName ?> <span class="badge"><?php echo $itemCount ?></span></li>
-                <form method="post" action="/catlist.index">
-                    <div class="input-group col-lg-6" style="position: absolute;top: 10px;right: 150px;">
-                        <input type="text" name="keywords" placeholder="I'm shopping for..." class="form-control"/>
-                            <span class="input-group-btn">
-                                <button class="btn btn-default" type="submit">Go!</button>
-                            </span>
-                    </div>
-                </form>
             </ol>
             <?php
             for($i=0;$i<count($items);$i++){
