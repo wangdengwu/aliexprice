@@ -10,7 +10,7 @@
                 <ul class="nav navbar-nav">
                     <li class="active"><a href="#">Home</a></li>
                     <li><a target="_blank" rel="nofollow" href="http://s.click.aliexpress.com/e/j6EuFYjAa">Buyer Protection</a></li>
-                    <li><a href="/coupon.index">Coupon</a></li>
+                    <li><a target="_blank" href="/coupon.index">Coupon</a></li>
                     <form method="post" action="/catlist.index">
                         <div class="input-group col-lg-6" style="position: absolute;top: 10px;right: 150px;">
                             <input type="text" name="keywords" placeholder="I'm shopping for..." class="form-control"/>
