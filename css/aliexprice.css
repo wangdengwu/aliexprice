@@ -29,3 +29,116 @@
     MARGIN-RIGHT: auto;
     MARGIN-LEFT: auto;
 }
+.mod-title {
+    width: 990px;
+    height: 30px;
+    line-height: 30px;
+    border-bottom: 3px solid #999;
+    margin-bottom: 15px;
+}
+.mod-title h3 {
+    font-size: 16px;
+    margin-bottom: 0;
+}
+.coupon-body{
+    width: 990px;
+}
+.col-main{
+    float: right;
+    width: 75%;
+}
+.col-sub{
+    float: left;
+}
+.categories-list{
+    width: 240px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+}
+.categories-list ul li {
+    line-height: 27px;
+    text-indent: 10px;
+    border-top: 1px solid #ddd;
+    margin: -1px 0 0 0;
+    list-style-type: none;
+}
+ul{
+    padding: 0px;
+}
+.categories-list ul li a, .categories-list ul li a:visited {
+    color: #333;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.coupon-list li {
+    position: relative;
+    float: left;
+    margin: 0 10px 10px 5px;
+    _display: inline;
+    list-style-type: none;
+    width: 230px;
+    height: 120px;
+    cursor: pointer;
+    background: url(http://style.aliunicorn.com/wimg/buyer/single/coupon-item-bg.png?t=5a7ff772_0) no-repeat;
+}
+
+.coupon-list li .store-img {
+    float: left;
+    width: 65px;
+    padding-left: 5px;
+    padding-top: 12px;
+    height: 102px;
+    overflow: hidden;
+    text-align: center;
+    margin-right: 10px;
+}
+.coupon-list li .coupon-info {
+    position: relative;
+    padding-top: 1px;
+    padding-left: 20px;
+    float: left;
+    width: 136px;
+    height: 110px;
+}
+
+.coupon-list li .coupon-price em {
+    font-size: 24px;
+    font-weight: 700;
+    color: #bd1a1e;
+}
+.coupon-list li .store-name {
+    font-size: 11px;
+    font-weight: 700;
+    padding-top: 5px;
+    display: block;
+    height: 33px;
+    line-height: 13px;
+    width: 100%;
+    overflow: hidden;
+}
+.coupon-list li a, .coupon-list li a:visited {
+    display: block;
+    width: 228px;
+    height: 110px;
+    color: #333;
+    cursor: pointer;
+}
+.coupon-list li .coupon-price, .coupon-list li .coupon-order-price {
+    display: block;
+    padding-top: 0px;
+    font-size: 14px;
+}
+.coupon-list li .coupon-time {
+    position: absolute;
+    bottom: 3px;
+    left: 20px;
+    height: 12px;
+    overflow: hidden;
+    font-size: 9px;
+    color: #999;
+}
+.coupon-list li .coupon-order-price em {
+    font-weight: 700;
+    color: #bd1a1e;
+}
