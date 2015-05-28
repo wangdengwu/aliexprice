@@ -31,7 +31,7 @@
 <div class="container-fluid">
     <div class="container">
 	    <div class="top-banner">
-            <img class="center-block" src="http://atms02.alicdn.com/tps/i2/TB1ecKwHVXXXXXKXVXXsvvJHXXX-990-280.jpg">
+            <img class="center-block" src="/img/coupon-banner.jpg">
 	    </div>
     </div>
     <div class="mod-title min-width center-block">
