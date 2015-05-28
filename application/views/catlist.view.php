@@ -17,7 +17,7 @@
                 <ul class="nav navbar-nav">
                     <li><a href="/">Home</a></li>
                     <li><a target="_blank" rel="nofollow" href="http://s.click.aliexpress.com/e/j6EuFYjAa">Buyer Protection</a></li>
-                    <li><a target="_blank" href="/coupon.index">Coupon</a></li>
+                    <li><a target="_blank" class="coupon-link" href="/coupon.index">Coupon</a></li>
                 </ul>
                 <form method="post" action="/catlist.index" class="navbar-form navbar-left" role="search">
                     <div class="form-group">
@@ -54,7 +54,7 @@
                                 <p>
                                     <span style="font-size: large;color: #bd1a1d"><?php echo money_format("US %n", $price)?></span>
                                     <span style="font-size: small;color: #999"> / <?php echo $packageType?></span>
-                                    <a href="<?php echo $item->detailUrl?>" class="btn btn-success pull-right" role="button">Buy Now</a>
+                                    <a rel="nofollow" href="<?php echo $item->detailUrl?>" class="btn btn-success pull-right" role="button">Buy Now</a>
                                 </p>
 
                             </div>

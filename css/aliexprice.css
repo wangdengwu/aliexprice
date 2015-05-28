@@ -22,7 +22,11 @@
 }
 .form-control{
     margin-left: 70px;
-    width: 530px !important;
+    width: 520px !important;
+}
+.coupon-link{
+    color: orange !important;
+    font-weight:bold;
 }
 #promotions{
     margin-top: 10px;

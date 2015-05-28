@@ -17,7 +17,7 @@
                 <ul class="nav navbar-nav">
                     <li class="active"><a href="#">Home</a></li>
                     <li><a target="_blank" rel="nofollow" href="http://s.click.aliexpress.com/e/j6EuFYjAa">Buyer Protection</a></li>
-                    <li><a target="_blank" href="/coupon.index">Coupon</a></li>
+                    <li><a target="_blank" class="coupon-link" href="/coupon.index">Coupon</a></li>
                 </ul>
                 <form method="post" action="/catlist.index" class="navbar-form navbar-left" role="search">
                     <div class="form-group">
