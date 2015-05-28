@@ -27,10 +27,8 @@
 #promotions{
     margin-top: 10px;
 }
-#promotions p a{
-    display: inline-block;
-    width: 200px;
-    margin: 5px 25px 10px;
+#promotions div{
+    margin-bottom: 20px;
 }
 
 #container{

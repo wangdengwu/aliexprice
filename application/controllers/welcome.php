@@ -26,10 +26,17 @@ class Welcome extends MpController {
         $ref="http://www.aliexpress.com/";
         $result=$http->setReferer($ref)->post($api_url, $data);
         $result_object=json_decode($result);
-        $promotionUrls=array();
+        $carousel=array();
         if(property_exists($result_object,'result')){
-            $promotionUrls=$result_object->result->promotionUrls;
+            $promotionUrls = $result_object->result->promotionUrls;
+            for($i=0;$i<count($promotionUrls);$i++){
+                $promotionUrl = $promotionUrls[$i];
+                $imgUrl = $imgs[$i];
+                array_push($carousel,array('promotionUrl'=>$promotionUrl->promotionUrl,'imgUrl'=>$imgUrl));
+            }
         }
-        $this->view("welcome", array('imgs'=>$imgs, 'promotionUrls'=>$promotionUrls));
+//        var_dump($carousel);
+
+        $this->view("welcome", array('items'=>$carousel));
     }
 }

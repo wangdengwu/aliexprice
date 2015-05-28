@@ -21,7 +21,7 @@
                 </ul>
                 <form method="post" action="/catlist.index" class="navbar-form navbar-left" role="search">
                     <div class="form-group">
-                        <input type="text" class="form-control" placeholder="I'm shopping for...">
+                        <input type="text" name="keywords" class="form-control" placeholder="I'm shopping for...">
                     </div>
                     <button type="submit" class="btn btn-default">GO!</button>
                 </form>
@@ -69,33 +69,22 @@
                 <div id="myCarousel" class="carousel slide" data-ride="carousel">
 
                     <ol class="carousel-indicators">
-                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                        <li data-target="#myCarousel" data-slide-to="1" class=""></li>
-                        <li data-target="#myCarousel" data-slide-to="2" class=""></li>
-                        <li data-target="#myCarousel" data-slide-to="3" class=""></li>
-                        <li data-target="#myCarousel" data-slide-to="4" class=""></li>
-                        <li data-target="#myCarousel" data-slide-to="5" class=""></li>
+                        <?php
+                            for($i=0;$i<count($items);$i++){
+                        ?>
+                        <li data-target="#myCarousel" data-slide-to="<?php echo $i ?>" <?php if($i==0){ ?>class="active"<?php } ?>></li>
+                        <?php } ?>
                     </ol>
 
                     <div class="carousel-inner" role="listbox">
-                        <div class="item active">
-                            <a href="<?php echo $promotionUrls[0]->promotionUrl?>"><img class="first-slide" src="<?php echo $imgs[0]?>" alt="First slide"></a>
-                        </div>
-                        <div class="item">
-                            <a href="<?php echo $promotionUrls[1]->promotionUrl?>"><img class="second-slide" src="<?php echo $imgs[1]?>" alt="Second slide"></a>
-                        </div>
-                        <div class="item">
-                            <a href="<?php echo $promotionUrls[2]->promotionUrl?>"><img class="third-slide" src="<?php echo $imgs[2]?>" alt="Third slide"></a>
-                        </div>
-                        <div class="item">
-                            <a href="<?php echo $promotionUrls[3]->promotionUrl?>"><img class="forth-slide" src="<?php echo $imgs[3]?>" alt="Forth slide"></a>
-                        </div>
-                        <div class="item">
-                            <a href="<?php echo $promotionUrls[4]->promotionUrl?>"><img class="fifth-slide" src="<?php echo $imgs[4]?>" alt="Fifth slide"></a>
-                        </div>
-                        <div class="item">
-                            <a href="<?php echo $promotionUrls[5]->promotionUrl?>"><img class="sixth-slide" src="<?php echo $imgs[5]?>" alt="Sixth slide"></a>
-                        </div>
+                         <?php
+                        for($i=0;$i<count($items);$i++){
+                            $item = $items[$i];
+                        ?>
+                            <div class="item <?php if($i==0){ ?>active<?php } ?>">
+                                <a rel="nofollow" href="<?php echo $item['promotionUrl'] ?>"><img src="<?php echo $item['imgUrl'] ?>"></a>
+                            </div>
+                        <?php } ?>
                     </div>
 
                     <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
@@ -109,42 +98,25 @@
 
                 </div><!--/My carousel-->
                 <div class="row" id="promotions">
-                    <div class="col-6 col-sm-6 col-lg-4">
-                        <a href="http://s.click.aliexpress.com/e/UrrnQRzbq?bz=300*250" target="_parent"><img width="250" height="210" src="http://g01.a.alicdn.com/kf/HTB1RLPnGVXXXXbaaXXXq6xXFXXXx/300x250.jpg"/></a>
-                        <p><a class="btn btn-default" href="http://s.click.aliexpress.com/e/A2z7MBu3J" target="_parent" role="button">Bestselling Products</a></p>
+
+                    <div class="col-12 col-sm-12 col-lg-12">
+                        <a href="http://s.click.aliexpress.com/e/eiqjAuF2B?bz=725*90" target="_parent"><img width="725" height="90" src="http://g01.a.alicdn.com/kf/HTB1O0C2HVXXXXcjXpXXq6xXFXXXi/728x90.jpg"/></a>
                     </div><!--/span-->
-                    <div class="col-6 col-sm-6 col-lg-4">
-                        <a href="http://s.click.aliexpress.com/e/YbEMnyrFM?bz=300*250" target="_parent"><img width="250" height="210"src="http://g01.a.alicdn.com/kf/HTB1NoYDGVXXXXaoaFXXq6xXFXXXl/PPC.Banner.300x250.jpg"/></a>
-                        <p><a class="btn btn-default" href="http://s.click.aliexpress.com/e/mMR37urnY" target="_parent">The Secret To Looking Great</a></p>
+                    <div class="col-12 col-sm-12 col-lg-12">
+                        <a href="http://s.click.aliexpress.com/e/Mrz3zNbaY?bz=725*90" target="_parent"><img width="725" height="90" src="http://g01.a.alicdn.com/kf/HTB1tlL9HpXXXXXtaXXXq6xXFXXXh/728x90.jpg"/></a>
                     </div><!--/span-->
-                    <div class="col-6 col-sm-6 col-lg-4">
-                        <a href="http://s.click.aliexpress.com/e/66y76MrFm?bz=300*250" target="_parent"><img width="250" height="210"src="http://g01.a.alicdn.com/kf/HTB1vUT.GVXXXXauaXXXq6xXFXXXX/300x250.jpg"/></a>
-                        <p><a class="btn btn-default" href="http://s.click.aliexpress.com/e/Baqrn2RNN" target="_parent">Travel safely and comfortably</a></p>
+                    <div class="col-12 col-sm-12 col-lg-12">
+                        <a href="http://s.click.aliexpress.com/e/Nv3fA6Mv7?bz=725*90" target="_parent"><img width="725" height="90" src="http://g01.a.alicdn.com/kf/HTB17jD_HpXXXXcmXVXXq6xXFXXXm/725x90.jpg"/></a>
                     </div><!--/span-->
-                    <div class="col-6 col-sm-6 col-lg-4">
-                        <a href="http://s.click.aliexpress.com/e/yNvBmmyJ2?bz=300*250" target="_parent"><img width="250" height="210"src="http://g01.a.alicdn.com/kf/HTB1JjfVGFXXXXbdaXXXq6xXFXXXo/300x250.jpg"/></a>
-                        <p><a class="btn btn-default" href="http://s.click.aliexpress.com/e/Jyjyji6A6" target="_parent">Fashion Men Channel</a></p>
+                    <div class="col-12 col-sm-12 col-lg-12">
+                        <a href="http://s.click.aliexpress.com/e/NFm6iQBEM?bz=725*90" target="_parent"><img width="725" height="90" src="http://g01.a.alicdn.com/kf/HTB1J3AaHpXXXXcXXFXXq6xXFXXXl/725x90.jpg"/></a>
                     </div><!--/span-->
-                    <div class="col-6 col-sm-6 col-lg-4">
-                        <a href="http://s.click.aliexpress.com/e/eURbIIIie?bz=300*250" target="_parent"><img width="250" height="210"src="http://gtms02.alicdn.com/tps/i2/TB1usUQFFXXXXaiXVXXK0sWQpXX-300-250.jpg"/></a>
-                        <p><a class="btn btn-default" href="http://s.click.aliexpress.com/e/jau7eiiaa" target="_parent">Big & Beautiful</a></p>
+                    <div class="col-12 col-sm-12 col-lg-12">
+                        <a href="http://s.click.aliexpress.com/e/aaEQnUjau?bz=725*90" target="_parent"><img width="725" height="90" src="http://g01.a.alicdn.com/kf/HTB1plAfHpXXXXcpXXXXq6xXFXXXs/725x90.jpg"/></a>
                     </div><!--/span-->
-                    <div class="col-6 col-sm-6 col-lg-4">
-                        <a href="http://s.click.aliexpress.com/e/2n6a6Iyzr?bz=300*250" target="_parent"><img width="250" height="210"src="http://gtms03.alicdn.com/tps/i3/T1luf9FJJXXXbwqofS-300-250.jpg"/></a>
-                        <p><a class="btn btn-default" href="http://s.click.aliexpress.com/e/niunUvfIQ" target="_parent">Walk This Way</a></p>
+                    <div class="col-12 col-sm-12 col-lg-12">
+                        <a href="http://s.click.aliexpress.com/e/qBqzFQVZr?bz=725*90" target="_parent"><img width="725" height="90" src="http://g01.a.alicdn.com/kf/HTB10ZkbHpXXXXbBXFXXq6xXFXXX1/725x90.jpg"/></a>
                     </div><!--/span-->
-                    <div class="col-6 col-sm-6 col-lg-4">
-                        <a href="http://s.click.aliexpress.com/e/aUVFuburZ?bz=300*250" target="_parent"><img width="250" height="210"src="http://gtms03.alicdn.com/tps/i3/TB1s0BUFFXXXXX5aFXXK0sWQpXX-300-250.jpg"/></a>
-                        <p><a class="btn btn-default" href="http://s.click.aliexpress.com/e/iAQFaAunY" target="_parent">Gadgets for Everyday use</a></p>
-                    </div><!--/span-->
-                    <div class="col-6 col-sm-6 col-lg-4">
-                        <a href="http://s.click.aliexpress.com/e/n6Eaey76y?bz=300*250" target="_parent"><img width="250" height="210"src="http://g01.a.alicdn.com/kf/HTB1PvLOGFXXXXc0XVXXq6xXFXXXd/300x250.jpg"/></a>
-                        <p><a class="btn btn-default" href="http://s.click.aliexpress.com/e/jmuJQVFQJ" target="_parent">Bags channel </a></p>
-                    </div><!--/span-->
-                    <div class="col-6 col-sm-6 col-lg-4">
-                        <a href="http://s.click.aliexpress.com/e/YFE2bAQNZ?bz=300*250" target="_parent"><img width="250" height="210"src="http://g01.a.alicdn.com/kf/HTB1ukuWGXXXXXXEapXXq6xXFXXXn/300x250.jpg"/></a>
-                        <p><a class="btn btn-default" href="http://s.click.aliexpress.com/e/Z3nUFy3Vv" target="_parent">Shoes channel</a></p>
-                    </div>
                 </div>
             </div>
         </div>

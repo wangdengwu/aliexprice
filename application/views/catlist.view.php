@@ -21,7 +21,7 @@
                 </ul>
                 <form method="post" action="/catlist.index" class="navbar-form navbar-left" role="search">
                     <div class="form-group">
-                        <input type="text" class="form-control" placeholder="I'm shopping for...">
+                        <input type="text" name="keywords" class="form-control" placeholder="I'm shopping for...">
                     </div>
                     <button type="submit" class="btn btn-default">GO!</button>
                 </form>
