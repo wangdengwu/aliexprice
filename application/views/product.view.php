@@ -3,6 +3,11 @@
 <meta name="keywords" content="<?php echo $keywords ?>" />
 <meta name="description" content="<?php echo $description ?>" />
 <link href="/css/product-detail.css?v=1" rel="stylesheet">
+<script type="text/javascript">
+    var seajs = {
+        'use':function(){}
+    };
+</script>
 </head>
 <body>
  <nav class="navbar navbar-default" id="header">
