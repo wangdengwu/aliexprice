@@ -46,9 +46,9 @@
             ?>
                     <div class="col-sm-6 col-md-4">
                         <div class="thumbnail" style="height: 480px">
-<!--                            <a href="/product.index/--><?php //echo $productId ?><!--" target="_self">-->
+                            <a href="/product.index/<?php echo $productId ?>" target="_self">
                                 <img style="height: 340px" src='<?php echo $imgUrl ?>'>
-<!--                            </a>-->
+                            </a>
                             <div class="caption">
                                 <p><?php echo $item->subject ?></p>
                                 <p>
