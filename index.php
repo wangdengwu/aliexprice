@@ -189,7 +189,7 @@ $system['autoload_db'] = FALSE;
  * true：显示错误信息,
  * false：所有错误将不显示
  */
-$system['debug'] = TRUE;
+$system['debug'] = FALSE;
 /**
  * 是否接管错误信息显示
  * true：所有错误信息将由系统格式化输出
