@@ -53,8 +53,6 @@ function showProductList(json){
         urls+=','+item.productUrl;
     });
     $.post( "/index.php/ajax.index", { urls: urls},function(data){
-        //console.log(data);
-        //console.log(data.result);
         if(data.errorCode===20010000){
             $(data.result.promotionUrls).each(function (index, item) {
                 if(index==0){

@@ -3,6 +3,7 @@
 <head>
     <meta http-equiv="content-language" content="en" />
     <meta name="google-site-verification" content="guru5ryWPoLP3GEntM_VBjuvN5Mzp9hqJPQUtvF17Ec" />
+    <meta name="msvalidate.01" content="6545332476A9BB36AB3DF66DDB11E8F6" />
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
