@@ -70,18 +70,18 @@
 
                     <ol class="carousel-indicators">
                         <?php
-                            for($i=0;$i<count($items);$i++){
+                            for($i=1;$i<count($items);$i++){
                         ?>
-                        <li data-target="#myCarousel" data-slide-to="<?php echo $i ?>" <?php if($i==0){ ?>class="active"<?php } ?>></li>
+                        <li data-target="#myCarousel" data-slide-to="<?php echo $i ?>" <?php if($i==1){ ?>class="active"<?php } ?>></li>
                         <?php } ?>
                     </ol>
 
                     <div class="carousel-inner" role="listbox">
                          <?php
-                        for($i=0;$i<count($items);$i++){
+                        for($i=1;$i<count($items);$i++){
                             $item = $items[$i];
                         ?>
-                            <div class="item <?php if($i==0){ ?>active<?php } ?>">
+                            <div class="item <?php if($i==1){ ?>active<?php } ?>">
                                 <a rel="nofollow" href="<?php echo $item['promotionUrl'] ?>"><img src="<?php echo $item['imgUrl'] ?>"></a>
                             </div>
                         <?php } ?>
