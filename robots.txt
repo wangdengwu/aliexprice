@@ -1,7 +1,2 @@
 User-agent: *
-Disallow: 
-Disallow: /js
-Disallow: /css
-Disallow: /img
-Disallow: /fonts
 Sitemap: http://www.aliexprice.com/sitemap.xml
