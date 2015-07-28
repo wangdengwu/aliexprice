@@ -15,7 +15,7 @@ class Welcome extends MpController {
         foreach($html->find('.ui-banner-slider-slider') as $element){
             foreach($element->children() as $ele){
                 array_push($urls,$ele->children(0)->href);
-                array_push($imgs,$ele->children(0)->children(0)->src);
+                array_push($imgs,$ele->children(0)->children(0)->{'data-src'});
             }
         }
         $api_url="http://gw.api.alibaba.com/openapi/param2/2/portals.open/api.getPromotionLinks/85087";
